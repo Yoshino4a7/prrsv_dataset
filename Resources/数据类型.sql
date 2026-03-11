@@ -1,0 +1,39 @@
+-- 数据类型
+
+1.STRING 字符串
+CHAR(x) 
+VARCHAR(x)
+MEDIUMTEXT 中等长度文本 16MB
+LONGTEXT 4GB
+
+2.INTEGER
+TINYINT
+INT
+
+3.浮点数
+DECIMAL(总位数，小数位数）
+FLOAT()
+DOUBLE()
+
+4.BOOLEANS
+TRUE FALSE
+
+5.ENUM
+ENUM('A','B','C')
+-- 只能赋值其中一个
+
+6.日期
+DATE
+TIME
+YEAR
+HOUR
+等等
+
+7.BLOB
+二进制数据
+TINYBLOB 255b
+BLOB 65KB
+MEDIUMBLOB 16MB
+
+8.JSON
+用来传递数据的文本文件
